@@ -1,12 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*reset.css*/
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -28,8 +22,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
-/* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, 
 footer, hgroup, menu, nav, section {
@@ -93,7 +85,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	width: 100%;
 	height: auto;
-
 	font-size: 11pt;
 	line-height: 1.8em;
 	letter-spacing: 1px;
@@ -129,14 +120,11 @@ b {
 	font-weight: 700;
 }
 
-
 a, a:link, a:visited {
 	text-decoration: none;
 }
 
 .callout {
-
-
 	font-weight: 500;
 	font-size: 16pt;
 	color: #000;
@@ -146,7 +134,6 @@ a, a:link, a:visited {
 u {
 	padding-top: 2%;
 }
-
 
 #projectheader, #thisheader{
 	z-index: 1;
@@ -169,7 +156,6 @@ u {
 	padding-top: 10px;
 	padding-left: 10px;
 	float: left;
-
 }
 
 #navhome2 {
@@ -268,10 +254,7 @@ footer {
 }
 
 /* INTRO */
-
-
 #intro {
-
 	background-color: #ffffff;
 	min-height: 400px;
 	margin: 0 auto; 
@@ -282,7 +265,6 @@ footer {
 #intromain {
 	text-align: center;
 	padding: 12% 30%;
-
 }
 
 #intromain h1 {
@@ -303,12 +285,9 @@ footer {
 	font-weight: 500;
 }
 
-
 #aboutme {
-
 	color: #333;
 	padding: 10% 40% 10% 14%;
-
 	min-height: 200px;
 	margin: 0 0;
 	position: relative;
@@ -326,7 +305,6 @@ footer {
 #aboutme p a{
 	color: #000;
 	font-weight: 500;
-
 }
 
 #aboutme a img {
@@ -337,10 +315,7 @@ footer {
 	opacity: 1;
 }
 
-
-
 /*TITLE BACKGROUNDS*/
-
 .project {
 	width: 100%;
 	display: block;
@@ -349,8 +324,6 @@ footer {
 	top: 0;
 	margin: 0 auto;
 }
-
-
 
 #overlayimg, .overlayimg, #overlayimg2, #overlayimg3, #overlayimg4, #overlayimg5, #overlayimg6 {
 	right: 0;
@@ -373,7 +346,6 @@ footer {
 	z-index: 2;
 	text-align: left;
 	margin: 120px 14%;
-
 }
 
 .project-text1{
@@ -406,7 +378,7 @@ footer {
 	color: #000;
 }
 
-#pet {
+#instafind {
 	background-color: #f6f6f6;
 	background-size: 100%;
 	min-height: 200px;
@@ -414,25 +386,10 @@ footer {
     position: relative; 
 }
 
-
-#friendme {
+#noisebucket {
 	background-color: #f1f2f2;
 	min-height: 200px;
 	background-size: 100%;
-	margin: 0 auto; 
-    position: relative; 
-}
-
-#buffalo {
-	background-color: #efddcf;
-	min-height: 200px;
-	margin: 0 auto; 
-    position: relative; 
-}
-
-#mini {
-	background-color: #dcd5cb;
-	min-height: 200px;
 	margin: 0 auto; 
     position: relative; 
 }
@@ -452,40 +409,40 @@ footer {
 	color: #78ceb1;
 }
 
-
 #intromain .button:hover, #aboutme .button:hover {
 	background-color: #78ceb1;
 	color: #fff;
 }
-#kitchen .button {
+
+#vera .button {
 	background-color: #FF5490;
 }
 
-#kitchen .button:hover {
+#vera .button:hover {
 	background-color: #F26F9D;
 }
 
-#apet .button {
+#baidu .button {
 	background-color: #2117DC;
 }
 
-#apet .button:hover {
+#baidu .button:hover {
 	background-color: #544BF4;
 }
 
-#pet .button {
+#instafind .button {
 	background-color: #0EE8EF;
 }
 
-#pet .button:hover {
+#instafind .button:hover {
 	background-color: #23C1D8;
 }
 
-#rga .button {
+#easyqueue .button {
 	background-color: #EBCB4B;
 }
 
-#rga .button:hover {
+#easyqueue .button:hover {
 	background-color: #D4B63F;
 }
 
@@ -493,31 +450,18 @@ footer {
 	background-color: #4386fc;
 }
 
-
-#friendme .button {
+#noisebucket .button {
 	background-color: #27A07C;
 }
 
-#friendme .button:hover {
+#noisebucket .button:hover {
 	background-color: #067655;
-}
-
-#buffalo .button {
-	background-color: #c47733;
-}
-
-#mini .button {
-	background-color: #e94440;
-}
-
-#mini .button:hover {
-	background-color: #CC2D29;
 }
 
 
 /* WORK CONTENT TEMPLATE */
 
-#kitchenheader {
+#veraheader {
 	background-color: #f3f8f7;
 	min-height: 300px;
 	position: relative;
@@ -526,8 +470,7 @@ footer {
 	background-repeat: no-repeat;
 }
 
-#apetheader {
-	background: url(images/header/apetheader.png) fixed no-repeat; 
+#baiduheader {
 	top: 0;
 	background-size: 100%;
 	min-height: 300px;
@@ -537,8 +480,7 @@ footer {
 	background-repeat: no-repeat;
 }
 
-#friendmeheader {
-	background: url(images/header/title_binspace-01.png) fixed;
+#noisebucketheader {
 	min-height: 300px;
 	position: relative;
 	margin: 0 auto;
@@ -547,8 +489,7 @@ footer {
 	background-repeat: no-repeat;
 }
 
-#petheader {
-	background: url(images/header/metafitheader.png) fixed no-repeat; 
+#instafindheader {
 	background-size: 100%;
 	min-height: 300px;
 	position: relative;
@@ -558,8 +499,7 @@ footer {
 	background-repeat: no-repeat;
 }
 
-#rgaheader {
-	background: url(images/header/title_rga.png) fixed no-repeat; 
+#easyqueueheader {
 	background-size: 100%;
 	min-height: 300px;
 	position: relative;
@@ -570,7 +510,6 @@ footer {
 }
 
 #otherheader {
-	background: url(images/header/otherheader.png) fixed no-repeat; 
 	background-size: 100%;
 	min-height: 580px;
 	position: relative;
@@ -578,12 +517,6 @@ footer {
 	color: #000;
 	background-size: 100%;
 	background-repeat: no-repeat;
-}
-
-
-#video {
-	width: 60%;
-	padding: 6% 20%;
 }
 
 a.active, .projectcontent a, .projectcontent a:visited {
@@ -614,8 +547,6 @@ a.active, .projectcontent a, .projectcontent a:visited {
 	padding: 0;
 	width: 100%;
 }
-
-
 
 .sections h1, .sections p {
 	width: 56%;
@@ -658,9 +589,6 @@ a.active, .projectcontent a, .projectcontent a:visited {
 	margin: 4% auto;
 }
 
-
-
-
 .sections h1 {
 	text-align: center;
 }
@@ -678,7 +606,6 @@ a.active, .projectcontent a, .projectcontent a:visited {
 	width: 30%;
 	float: left;
 	vertical-align: top;
-	
 }
 
 .projectinfo h1 {
@@ -721,7 +648,6 @@ a.active, .projectcontent a, .projectcontent a:visited {
 #intromain {
 	padding: 12% 30%;
 }
-
 
 #video {
 	width: 72%;
@@ -773,7 +699,6 @@ a.active, .projectcontent a, .projectcontent a:visited {
 	margin: 4% auto;
 }
 
-
 .overview {
 	padding-top: 6%;
 	padding-bottom: 4%;
@@ -785,18 +710,15 @@ footer {
 	padding: 1% 14%;
 }
 
-#kitchenheader {
+#veraheader {
 	min-height: 240px;
 }
 
-#apetheader, #friendmeheader, #petheader, #rgaheader{
+#baiduheader, #noisebucketheader, #instafindheader, #easyqueueheader{
 	min-height: 240px;
 	background-attachment: scroll; 
 }
 
-
-
-}
 
 @media (max-width: 800px) {
 
@@ -964,7 +886,7 @@ footer {
 		display: inline-block;
 	}
 
-	#kitchenheader, #apetheader, #friendmeheader, #petheader, #rgaheader{
+	#veraheader, #baiduheader, #noisebucketheader, #instafindheader, #easyqueueheader{
 		min-height: 180px;
 	}
 
